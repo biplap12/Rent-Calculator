@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#f4f4f4">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent Calculator"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:background="@drawable/title_background"
+        android:padding="16dp"/>
+
+    <!-- Inputs -->
+    <EditText
+        android:id="@+id/editTextRoomRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Rent"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextElectricityStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Electricity Start"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextElectricityEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Electricity End"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextWaterBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Water Bill"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDustCharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dust Charge"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Result field -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Rent: RS. 0.00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#00796b"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:background="@drawable/result_background"
+        android:padding="16dp"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calculate"
+            android:textColor="#fff"
+            android:background="@color/button_light"
+            android:layout_marginEnd="8dp"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:textColor="#fff"
+            android:background="@color/buttonDefaultColor"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

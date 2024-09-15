@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#F5F5F5</color> <!-- Light Gray -->
+    <color name="app_bar_light">#2196F3</color> <!-- Blue -->
+    <color name="button_light">#FF5722</color> <!-- Deep Orange -->
+    <color name="text_light">#212121</color> <!-- Dark Gray -->
+    <color name="card_background_light">#FFFFFF</color> <!-- White -->
+
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#121212</color> <!-- Almost Black -->
+    <color name="app_bar_dark">#03DAC5</color> <!-- Teal -->
+    <color name="button_dark">#BB86FC</color> <!-- Purple -->
+    <color name="text_dark">#FFFFFF</color> <!-- White -->
+    <color name="card_background_dark">#1E1E1E</color> <!-- Dark Gray -->
+        <color name="backgroundColor">#F5F5F5</color>
+        <color name="editTextBackgroundColor">#FFFFFF</color>
+        <color name="editTextBorderColor">#DDDDDD</color>
+        <color name="resultTextColor">#000000</color>
+        <color name="buttonDefaultColor">#6200EE</color>
+        <color name="buttonPressedColor">#3700B3</color>
+        <color name="buttonTextColor">#FFFFFF</color>
+
+</resources>

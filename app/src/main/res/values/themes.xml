@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RentCalculatorByBiplap" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/app_bar_light</item>
+        <item name="colorPrimaryDark">@color/app_bar_light</item>
+        <item name="colorAccent">@color/button_light</item>
+    </style>
+
+    <style name="Theme.RentCalculatorByBiplap" parent="Base.Theme.RentCalculatorByBiplap" />
+</resources>
